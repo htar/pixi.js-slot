@@ -2,7 +2,7 @@
 
 #### Install dependencies
 
-    cd `our folder`
+    `cd` to project folder
     then run `yarn`  or  `npm install`
 
 #### Start dev-client locally
