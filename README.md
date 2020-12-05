@@ -1,4 +1,4 @@
-# Template with TS and Stulys
+# Pixi.js slots with TS and Stulys
 
 #### Install dependencies
 
