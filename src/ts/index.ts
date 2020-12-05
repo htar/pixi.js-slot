@@ -254,8 +254,8 @@ class Application {
 		})
 
 		const balanse = new PIXI.Text(`Balanse: ${this.user.balanse}`, style)
-		balanse.x = Math.round(width - balanse.width)
-		balanse.y = 10
+		balanse.x = Math.round(width - balanse.width *  scale - this.button.width / 2)
+		balanse.y = Math.round(height / 2 + this.button.height)
 
 		this.balanseText = balanse
 		this.backgroundContainer.addChild(balanse)
